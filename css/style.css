@@ -17,7 +17,7 @@ html {
 }
 
 .header {
-  height: 100vh;
+  height: 70vh;
   /* padding-top: 4rem;
   padding-bottom: 4rem; */
   width: 100%;
@@ -56,6 +56,10 @@ html {
   padding: 3rem;
 }
 
+.download {
+  text-align: center;
+}
+
 .download-button {
   padding-top: 1.8rem;
   padding-bottom: 1.8rem;
@@ -64,13 +68,13 @@ html {
   background-color: var(--successColor);
   text-decoration: none;
   color: var(--white);
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   border-radius: 100rem;
   font-weight: bold;
 }
 
 .flex-center-wraper {
-  height: 100vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
