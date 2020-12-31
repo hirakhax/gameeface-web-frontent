@@ -17,7 +17,7 @@ html {
 }
 
 .header {
-  height: 70vh;
+  height: 100vh;
   /* padding-top: 4rem;
   padding-bottom: 4rem; */
   width: 100%;
@@ -74,7 +74,7 @@ html {
 }
 
 .flex-center-wraper {
-  height: 70vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
