@@ -11,6 +11,10 @@ html {
   font-family: "Josefin Sans", sans-serif;
 }
 
+p {
+  font-weight: 400;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
@@ -78,4 +82,33 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+nav {
+  background-color: #581845;
+  padding: 1.5rem;
+  color: var(--white);
+}
+
+nav .nav-logo {
+  text-align: center;
+}
+
+.footer {
+  padding: 1.5rem;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #888888;
+}
+
+.footer ul li a:hover {
+  color: #444444;
 }
