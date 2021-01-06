@@ -112,3 +112,7 @@ nav .nav-logo {
 .footer ul li a:hover {
   color: #444444;
 }
+
+.p-4 {
+  padding: 1.4rem;
+}
